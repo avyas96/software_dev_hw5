@@ -7,19 +7,26 @@ class Student:
         self.__age = age
         self.__department = department
 
-    ##public functions for getting name and id
+    ##public functions for getting name, id
     def getName(self):
         return self.__name
 
     def getId(self):
         return self.__id
-
-    ##protected functions for getting and setting address
-    def _getAddress_(self):
+    
+    ##publicly visible "package" functions for getting and setting student address
+    def getAddress(self):
         return self.__address
 
-    def _setAddress_(self, address):
+    def setAddress(self, address):
         self.__address = address
+
+    ##protected functions for getting and setting phone
+    def _getPhone_(self):
+        return self.__phone
+
+    def _setPhone_(self, phone):
+        self.__phone = phone
 
     ##public functions for getting and setting age and department
     def getAge(self):
