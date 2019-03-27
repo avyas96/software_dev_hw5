@@ -36,4 +36,10 @@ class Student:
 
     ##function that prints student info
     def printStudentInfo(self):
+        print("Student name: ", self.__name)
+        print("Student id: ", self.__id)
+        print("Student phone: ", self.__phone)
+        print("Student address: ", self.__address)
+        print("Student age: ", self.__age)
+        print("Student department: ", self.__department)
         
