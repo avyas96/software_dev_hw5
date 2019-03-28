@@ -1,17 +1,24 @@
 import logging
 
 from student import Student
+from buildStudent import *
 
 
 def main():
+<<<<<<< HEAD
     print("creating student...")
     john = Student("John", 1, 111222333, "212 West Ave", 20, "Computer Science")
+=======
+    john = createStudent("John", 1, 111222333, "212 West Ave", 20, "Computer Science")
+    print("student named ", john.getName(), " with ID ", john.getAge())
+    #Update Phone number
+    updatePhone(john, 999888777)
+>>>>>>> dce991ead53e49f16561a88938555d97a6450d7c
 
     print("Printing John's full details")
-
     john.printStudentInfo()
     print()
-    #Note: The debug message and info message won't be visible on terminal. In order to view them you need to change the configuration.
+    # Note: The debug message and info message won't be visible on terminal. In order to view them you need to change the configuration.
     logging.basicConfig(level=logging.DEBUG)
     logging.debug('This is a debug message')
     logging.info('This is an info message')
@@ -20,7 +27,6 @@ def main():
     logging.error('This is an error message')
     logging.critical('This is a critical message')
 
-
     a = 5
     b = 0
 
@@ -28,6 +34,7 @@ def main():
         c = a / b
     except Exception as e:
         logging.error("Exception occurred", exc_info=True)
+
 
 if __name__ == "__main__":
     main()
