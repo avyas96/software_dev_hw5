@@ -27,12 +27,13 @@ def updateDept(person, newDept):
 
 def updateAddress(person, newAddress):
     print(person.getName()+"'s original address was", person.getAddress())
-    person.setAddress("121 East Street")
+    person.setAddress(newAddress)
     print(person.getName(),"now lives at ", person.getAddress())
 
 def main():
     #Make new student
     josh = createStudent("Josh", 1, 111222333, "212 West Ave", 20, "Computer Science")
+
     #Use getName, getId, and getPhone functions from the class
     print(josh.getName(), " has ID number:", josh.getId())
 
