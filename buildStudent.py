@@ -4,7 +4,7 @@ from student import *
 def main():
     print("creating student...")
     josh = Student("Josh", 1, 111222333, "212 West Ave", 20, "Computer Science")
-    print("student named ", josh.getName(), " with ID ", josh.getAge())
+    print("student named ", josh.getName(), " with ID ", josh.getId())
     print("Josh registered with the following phone number: ", josh._getPhone_())
     print("updating Josh's phone number:")
     josh._setPhone_(999888777)
