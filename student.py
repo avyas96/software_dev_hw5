@@ -1,11 +1,11 @@
 class Student:
-    def __init__(self, name, id):
+    def __init__(self, name, id, phone, address, age, department):
         self.__name = name
         self.__id = id
-        # self.__phone = phone
-        # self.__address = address
-        # self.__age = age
-        # self.__department = department
+        self.__phone = phone
+        self.__address = address
+        self.__age = age
+        self.__department = department
 
     ##public functions for getting name, id
     def getName(self):
