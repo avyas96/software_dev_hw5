@@ -5,15 +5,11 @@ from buildStudent import *
 
 
 def main():
-<<<<<<< HEAD
     print("creating student...")
-    john = Student("John", 1, 111222333, "212 West Ave", 20, "Computer Science")
-=======
     john = createStudent("John", 1, 111222333, "212 West Ave", 20, "Computer Science")
     print("student named ", john.getName(), " with ID ", john.getAge())
     #Update Phone number
     updatePhone(john, 999888777)
->>>>>>> dce991ead53e49f16561a88938555d97a6450d7c
 
     print("Printing John's full details")
     john.printStudentInfo()
