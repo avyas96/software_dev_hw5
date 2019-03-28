@@ -6,10 +6,6 @@ from student import Student
 def main():
     print("creating student...")
     john = Student("John", 1, 111222333, "212 West Ave", 20, "Computer Science")
-    print("student named ", john.getName(), " with ID ", john.getAge())
-    print("Josh registered with the following phone number: ", john._getPhone_())
-    print("updating Josh's phone number:")
-    john._setPhone_(999888777)
 
     print("Printing John's full details")
 
