@@ -1,0 +1,10 @@
+README.md
+buildStudent.py
+logging_demo_student.py
+setup.py
+student.py
+unit_test_demo_student.py
+software_dev_hw5.egg-info/PKG-INFO
+software_dev_hw5.egg-info/SOURCES.txt
+software_dev_hw5.egg-info/dependency_links.txt
+software_dev_hw5.egg-info/top_level.txt

@@ -1,6 +1,5 @@
 import logging
 
-from student import Student
 from buildStudent import *
 
 
